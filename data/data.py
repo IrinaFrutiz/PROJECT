@@ -1,4 +1,5 @@
-from dataclasses import is_dataclass
+from dataclasses import is_dataclass, dataclass
+
 
 @dataclass
 class Person:

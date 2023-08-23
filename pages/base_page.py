@@ -3,7 +3,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 class BasePage:
-    def __int__(self, driver, url):
+    def  __init__(self, driver, url):
         self.driver = driver
         self.url = url
 

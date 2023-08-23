@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
-class TextBoxPageLocators:
+class TextBoxPageLocators():
 
     # from fields
     FULL_NAME = (By.CSS_SELECTOR, "input[id='userName']")
