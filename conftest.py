@@ -12,10 +12,9 @@ def driver():
         Returns:
             webdriver.Chrome: The WebDriver instance.
         """
-    # driver = webdriver.Chrome()
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
     print("\nStarting Chrome for the test")
-    # driver.maximize_window()
+    driver.maximize_window()
 
     yield driver  # The WebDriver instance is provided to the test
 
